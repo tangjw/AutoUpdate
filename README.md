@@ -1,7 +1,7 @@
 # AutoUpdate
 调用DownloadManager下载, 实现应用自动更新
 不用写下载模块了
-##Android 6.0
+##Android 6.0 坑爹问题
     Uri downloadFileUri = downloadManager.getUriForDownloadedFile(downloadId);
 		
 	Android 6.0
@@ -18,3 +18,8 @@
             downloadFileUri = Uri.parse("file://" + uriString);
         }
     }
+
+
+#感谢
+http://jk2k.com/2016/01/install-apk-automatically-after-the-download-is-complete-with-download-manager/
+http://www.tuicool.com/articles/NrQ7fy
